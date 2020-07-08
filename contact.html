@@ -1,0 +1,93 @@
+<html>
+
+    <head>
+
+        <title>Contact/About</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!-- for icons -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- for fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Muli:wght@600&family=Anton&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body style= "background-color: #dbfffc;">
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light flex-nowrap" style="background-color:lightblue;">
+        <a class="navbar-brand w-100 " href="# ">K&L Cooks</a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+        <div class="navbar-collapse collapse w-100 justify-content-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item ">
+                    <a class="nav-link " href="home.html">Home <span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link " href="index.html ">Recipes</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 30px;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true" style="font-size: 30px;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true" style="font-size: 30px;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <!-- Title & Description-->
+        <h1 class="text" style="font-weight: bold;">Contact Us</h1>
+        <p class="text">Hey! We are two high schoolers who like to eat and cook and thus we present to you our website: K&L Cooks.
+            We created this website with the intentions of sharing recipes and some of the history behind the dishes.
+            Additionally, we tried to make our website as simple and accessible as possible in order to reach as large an audience as possible. 
+            If you had any other questions for us about our site or the receipes - anything at all - you can reach out to us through social media,
+            our email: KNLcooks@gmail.com, or through our contact form below. Lastly, please be aware that we may take up to 3 business days to get back to you.
+        </p>
+
+        <!-- Contact Form -->
+        <div class="text" style="font-weight: bold;">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br>
+                <label for="reason">Subject</label>
+                <select id="reason" name="reason">
+                <option value="recipeq">Recipe Question</option>
+                <option value="historyq">History Question</option>
+                <option value="ingredientq">Ingredient Question</option>
+                <option value="measurementq">Measurement Question</option>
+                <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="subject">Type your questions and/or concerns below</label>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px; width:500px;"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+          </div>
+
+    </body>
+
+</html>
